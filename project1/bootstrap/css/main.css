@@ -1,3 +1,5 @@
+/* global styles */
+
 * {
 	padding: 0;
 	margin: 0;
@@ -5,7 +7,6 @@
 	-moz-box-sizing: border-box;
 	-ms-box-sizing: border-box;
 	box-sizing: border-box;
-	
 	font-family: 'Raleway', sans-serif;
 	font-weight: 400;
 	color: #003333;
@@ -16,25 +17,13 @@
 }
 
 .hero {
-	padding: 20px 0;
+	padding: 3% 0;
 	max-width: 100%;
 	height: auto;
 	width: 100%;
 }
 
-.logo {
-	padding-top: 15px;
-}
-
-hr {
-	margin: 30px 0 15px 0;
-	color: #9db0b0;
-	background-color: #9db0b0;
-	border: 0;
-	height: 2px;
-}
-
-#circle {
+.circle {
 	width: 250px;
 	height: 250px;
 	background: #ffff66;
@@ -49,10 +38,9 @@ h1 {
 }
 
 .name {
-	padding-top: 15px;
+	padding-top: 1%;
 	padding-bottom: 0;
 	color: #637d7d;
-	font-size: 50px;
 	font-weight: 300;
 }
 
@@ -105,10 +93,16 @@ a:active {
 	text-decoration: underline;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
 
-	.logo, hr {
+	hr {
 		display: none;
+	}
+
+	.logo {
+		width: 20%;
+		height: 20%;
+		margin: 2% auto;
 	}
 
 	.name, .title, h2, h4 {
@@ -121,5 +115,37 @@ a:active {
 
 	.body, .credit {
 		text-align: center;
+	}
+}
+
+@media only screen and (min-width: 650px) {
+
+	.logo {
+		width: 125px;
+		height: 125px;		
+	}
+}
+
+@media only screen and (min-width: 768px) {
+
+	.name {
+		padding-top: 3%;
+		font-size: 50px;
+	}
+
+	.logo {
+		margin-top: 15px;
+	}
+
+	.hero {
+		padding : 15px 0;
+	}
+
+	hr {
+		margin: 30px 0 15px 0;
+		color: #9db0b0;
+		background-color: #9db0b0;
+		border: 0;
+		height: 2px;
 	}
 }
