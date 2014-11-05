@@ -78,12 +78,12 @@ h4 {
 a:link {
 	color: #86a2a2;
 	text-decoration: none;
-} 
+}
 
 a:visited {
 	color: #86a2a2;
 	text-decoration: none;
-} 
+}
 
 a:hover {
 	text-decoration: underline;
@@ -122,7 +122,7 @@ a:active {
 
 	.logo {
 		width: 125px;
-		height: 125px;		
+		height: 125px;
 	}
 }
 
