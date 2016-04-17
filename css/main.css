@@ -49,12 +49,7 @@ h3 {
 /* main */
 
 .circle {
-	width: 250px;
-	height: 250px;
 	background: #ffff66;
-	-moz-border-radius: 125px;
-	-webkit-border-radius: 125px;
-	border-radius: 125px;
 }
 
 
@@ -72,11 +67,11 @@ h4 {
 }
 
 .proj_title {
-	padding-top: 60px;
+	padding-top: 15px;
 }
 
 .proj_desc {
-	padding: 0 10px;
+	padding: 0 10px 10px;
 	color: #86a2a2;
 	font-size: 16px;
 }
@@ -157,5 +152,22 @@ a:active {
 		background-color: #9db0b0;
 		border: 0;
 		height: 2px;
+	}
+
+	.circle {
+		width: 250px;
+		height: 250px;
+		background: #ffff66;
+		-moz-border-radius: 125px;
+		-webkit-border-radius: 125px;
+		border-radius: 125px;
+	}
+
+	.proj_title {
+		padding-top: 60px;
+	}
+
+	.proj_desc {
+		padding: 0 10px;
 	}
 }
