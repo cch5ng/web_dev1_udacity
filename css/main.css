@@ -16,21 +16,7 @@
 	margin: 0 auto;
 }
 
-.hero {
-	padding: 3% 0;
-	max-width: 100%;
-	height: auto;
-	width: 100%;
-}
-
-.circle {
-	width: 250px;
-	height: 250px;
-	background: #ffff66;
-	-moz-border-radius: 125px;
-	-webkit-border-radius: 125px;
-	border-radius: 125px;
-}
+/* header */
 
 h1 {
 	padding-bottom: 0;
@@ -44,14 +30,6 @@ h1 {
 	font-weight: 300;
 }
 
-h2 {
-	font-size: 35px;
-}
-
-.work {
-	color: #305959;
-}
-
 h3 {
 	margin-top: 5px;
 }
@@ -60,6 +38,34 @@ h3 {
 	color: #a0b8b8;
 	font-size: 25px;
 }
+
+.hero {
+	padding: 3% 0;
+	max-width: 100%;
+	height: auto;
+	width: 100%;
+}
+
+/* main */
+
+.circle {
+	width: 250px;
+	height: 250px;
+	background: #ffff66;
+	-moz-border-radius: 125px;
+	-webkit-border-radius: 125px;
+	border-radius: 125px;
+}
+
+
+h2 {
+	font-size: 35px;
+}
+
+.work {
+	color: #305959;
+}
+
 
 h4 {
 	font-size: 30px;
@@ -93,6 +99,8 @@ a:active {
 	text-decoration: underline;
 }
 
+/* phone + tablet */
+
 @media only screen and (max-width: 767px) {
 
 	hr {
@@ -118,6 +126,7 @@ a:active {
 	}
 }
 
+/* phone landscape */
 @media only screen and (min-width: 650px) {
 
 	.logo {
@@ -126,6 +135,7 @@ a:active {
 	}
 }
 
+/* tablet + desktop */
 @media only screen and (min-width: 768px) {
 
 	.name {
